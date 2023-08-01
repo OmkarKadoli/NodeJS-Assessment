@@ -3,6 +3,7 @@ const app = express();
 const port =process.env.PORT || 3000;
 // const path = require('path');
 const add = require("./sum.js");  
+const count = require("./countwords.js");
 
 app.use(express.static('html/'));
 
